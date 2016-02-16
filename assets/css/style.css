@@ -305,7 +305,11 @@ ul.list-check li::before {
     }
 }
 
-
+@media (max-width : 640px) {
+    .tt-fullHeight{
+        height: 560px !important;
+    }
+}
 #home {
 	background: url(../images/homehome.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
@@ -550,7 +554,8 @@ SOCIAL ICON
     margin-bottom: 45px;
 }
 .my-signature img{
-    width: inherit;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -1438,12 +1443,20 @@ Icon for all respective meta
 }
 
 /* === Hire Section === */
+@media (max-width : 640px) {
+    .tt-fullHeight{
+        height: 560px !important;
+    }
+}
 .hire-section {
     background: url(../../assets/images/hire-bg3.jpg) no-repeat top center #FFD464;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
+
+
 }
+
 .hire-section-bg {
     padding: 110px 0;
     /*background: -webkit-linear-gradient(bottom, rgba(104, 195, 163, 0.7));*/ /*Safari 5.1-6*/
