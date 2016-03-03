@@ -1453,6 +1453,7 @@ Icon for all respective meta
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
+    margin-bottom: 50px;
 
 
 }
@@ -1529,6 +1530,21 @@ Icon for all respective meta
     background: #3a4149;
     padding: 36px 0;
     color: #fff;
+
+}
+
+.footer-wrapper #contact {
+text-align: center;
+font-style: normal;
+font-size: 18px;
+}
+
+.footer-wrapper #made {
+    margin-top: 25px;
+     text-align: left;
+    font-style: italic;
+}
+
   
 }
 .copyright p {
